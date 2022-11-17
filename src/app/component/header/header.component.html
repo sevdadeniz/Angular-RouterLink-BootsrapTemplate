@@ -1,0 +1,43 @@
+<!-- header section start -->
+<div class="header_section">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo">
+                <a href="index.html"><img src="./assets//logo.png"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/home">
+                            <app-content-list name="Anasayfa"></app-content-list>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" routerLink="/about">
+                            <app-content-list name="Hakkımızda"></app-content-list>
+                        </a>
+                    </li>
+
+                    <a class="nav-link" routerLink="/contact">
+                        <app-content-list name="İletişim"></app-content-list>
+                    </a>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <h1 class="call_text">Call Us : +01 1234567890</h1>
+                </form>
+                <div class="search_icon">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./assets/search-icon.png"></a>
+                        </li>
+                        <li><a href="#">LOGIN</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
