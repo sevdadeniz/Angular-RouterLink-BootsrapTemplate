@@ -1,0 +1,21 @@
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <h1 class="client_text">{{pagesService.pagesTeam}}</h1>
+        <div *ngFor="let user of users" class="clients_section2 layout_padding">
+            <div class="client_1">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="image_7"><img src="./assets/img-7.png"></div>
+                        <div class="quote_icon"><img src="./assets/quote-icon.png"></div>
+                    </div>
+                    <div class="col-sm-9">
+                        <h1 class="loksans_text"> {{user.name}} {{user.username}} </h1>
+                        <p class="dolor_ipsum_text">Mail: {{user.email}}</p>
+                        <p class="dolor_ipsum_text">Company Name: {{user.company.name}} / {{user.address.city}}</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
